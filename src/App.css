@@ -75,6 +75,7 @@
     width: 50%;
     background-color: aqua;
     border-radius: 20px;
+    left: 0;
 }
 
 @media only screen and (max-width: 599px) {
@@ -85,6 +86,8 @@
         -webkit-box-shadow: 0px 5px 17px 10px rgba(0,0,0,0.39);
         -moz-box-shadow: 0px 5px 17px 10px rgba(0,0,0,0.39);
         box-shadow: 0px 5px 17px 10px rgba(0,0,0,0.39);
+        position: fixed;
+        left: 5%;
         
     }
     
