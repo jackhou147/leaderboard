@@ -68,7 +68,8 @@ class Camper extends Component {
                         hovered: true
                     })
                     
-            }}>
+            }}
+                onClick={function(){props.handleHover(props.src, props.index, props.pts)}}>
                 <CamperPic src={this.props.src}></CamperPic>
                 <CamperInfo_ProgressBar name={this.props.name}
                                         pts={this.props.pts}
